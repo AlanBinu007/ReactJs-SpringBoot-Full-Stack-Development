@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package net.alanbinu.springboot.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.model.Employee;
-import net.javaguides.springboot.repository.EmployeeRepository;
+import net.alanbinu.springboot.exception.ResourceNotFoundException;
+import net.alanbinu.springboot.model.Employee;
+import net.alanbinu.springboot.repository.EmployeeRepository;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
