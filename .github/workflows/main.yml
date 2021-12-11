@@ -1,0 +1,40 @@
+name: CI + CD
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Staging:
+    runs-on: ubuntu-latest
+    environment: Staging
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Running in Staging"
+        
+  Quality_Assurance:
+    runs-on: ubuntu-latest
+    environment: Quality_Assurance
+    needs: Staging
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Running in QA"
+        
+  Production:
+    runs-on: ubuntu-latest
+    environment: Development
+    needs: Quality_Assurance
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Running in production"
+        
+  Development:
+    runs-on: ubuntu-latest
+    environment: Production
+    needs: Production
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Deployed"
