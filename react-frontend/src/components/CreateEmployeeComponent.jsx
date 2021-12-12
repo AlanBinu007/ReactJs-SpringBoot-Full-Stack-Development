@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import EmployeeService from '../services/EmployeeService';
 
+//step 1
+
 class CreateEmployeeComponent extends Component {
     constructor(props) {
         super(props)
