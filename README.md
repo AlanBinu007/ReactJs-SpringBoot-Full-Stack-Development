@@ -9,10 +9,14 @@
 - MySql Database
 - Spring Security
 - REST API
+- JWT Auth
+- Routing
+- CORS
 
 ## Features
 
-- Login and Logout
+- Login
+- Logout
 - CURD Operations
 - Data are stored in MySql database
 - Neat and clean UI
@@ -24,11 +28,11 @@
 
 Clone the rep
 
-cd react-frontend
+cd frontend
 npm i
 npm run start
 
-cd springboot-backend
+cd backend
 Run as Spring Boot
 ```
 
