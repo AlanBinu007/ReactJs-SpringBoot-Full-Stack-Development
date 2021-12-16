@@ -1,5 +1,5 @@
 
-# Full Stack Employee Management Application Using ReactJS and Spring Boot
+# Full Stack Applications Using ReactJS and Spring Boot
 
 
 ## Tech We Used
