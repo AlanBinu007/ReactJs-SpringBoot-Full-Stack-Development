@@ -1,0 +1,21 @@
+{
+  "name": "carfront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-confirm-alert": "^2.0.2",
+    "react-csv": "^1.0.14",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-skylight": "^0.5.1",
+    "react-table": "^6.8.2",
+    "react-toastify": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
