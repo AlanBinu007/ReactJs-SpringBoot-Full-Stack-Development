@@ -1,4 +1,4 @@
-package com.packt.cardatabase.service;
+package com.alan.binu.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.packt.cardatabase.domain.User;
-import com.packt.cardatabase.domain.UserRepository;
+import com.alan.binu.domain.User;
+import com.alan.binu.domain.UserRepository;
 
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {

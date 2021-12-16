@@ -1,4 +1,4 @@
-package com.packt.cardatabase;
+package com.alan.binu;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.GenericFilterBean;
 
-import com.packt.cardatabase.service.AuthenticationService;
+import com.alan.binu.service.AuthenticationService;
 
 public class AuthenticationFilter extends GenericFilterBean {
 

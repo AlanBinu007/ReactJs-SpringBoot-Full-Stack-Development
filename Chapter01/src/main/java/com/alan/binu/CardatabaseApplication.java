@@ -1,4 +1,4 @@
-package com.packt.cardatabase;
+package com.alan.binu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

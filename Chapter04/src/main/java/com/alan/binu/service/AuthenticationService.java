@@ -1,4 +1,4 @@
-package com.packt.cardatabase.service;
+package com.alan.binu.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

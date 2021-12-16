@@ -1,4 +1,4 @@
-package com.packt.cardatabase;
+package com.alan.binu;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -9,8 +9,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.packt.cardatabase.domain.Car;
-import com.packt.cardatabase.domain.CarRepository;
+import com.alan.binu.domain.Car;
+import com.alan.binu.domain.CarRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

@@ -1,4 +1,4 @@
-package com.packt.cardatabase.domain;
+package com.alan.binu.domain;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.packt.cardatabase.domain;
+package com.alan.binu.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

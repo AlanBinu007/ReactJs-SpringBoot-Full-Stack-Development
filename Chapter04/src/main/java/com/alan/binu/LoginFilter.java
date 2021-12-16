@@ -1,4 +1,4 @@
-package com.packt.cardatabase;
+package com.alan.binu;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -16,8 +16,8 @@ import org.springframework.security.web.authentication.AbstractAuthenticationPro
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.packt.cardatabase.domain.AccountCredentials;
-import com.packt.cardatabase.service.AuthenticationService;
+import com.alan.binu.domain.AccountCredentials;
+import com.alan.binu.service.AuthenticationService;
 
 public class LoginFilter extends AbstractAuthenticationProcessingFilter {
 
