@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a script
-        run: echo "Running in QA"
+        run: echo "Running in QA" 
         
   Production:
     runs-on: ubuntu-latest
