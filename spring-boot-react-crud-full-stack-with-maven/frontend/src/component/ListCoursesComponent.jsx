@@ -40,6 +40,7 @@ class ListCoursesComponent extends Component {
   }
 
   updateCourseClicked(id) {
+    //to verify in console
     console.log("update " + id);
     this.props.history.push(`/courses/${id}`);
   }
