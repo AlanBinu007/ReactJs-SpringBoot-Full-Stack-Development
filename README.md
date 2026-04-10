@@ -13,7 +13,7 @@
 ## Features
 
 - Login and Logout
-- CURD Operations
+- CRUD Operations
 - Data are stored in MySql database
 - Neat and clean UI
 
